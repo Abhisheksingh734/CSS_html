@@ -1,0 +1,20 @@
+.heading1{
+    border: 5px solid red;
+    border-style: dashed solid;
+    margin-bottom: 100px;
+    padding: 12px;
+    text-align: center;
+}
+
+p{
+    background-image: url(/Assets1/intro\ background.webp);
+    color: red;
+    background-repeat: contain;
+    /* text-align: center; */
+    font-size: x-large;
+    padding: 50px;
+    border: 6px solid red;
+    font-size: 40px;
+    text-align: center;
+}
+
