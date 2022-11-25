@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    height: 5vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/CSSinClass/Projects/FormAssets/Azonix.otf);
+}
+
+li{
+    
+    display: inline;
+    margin: 20px ;
+    font-size: 22px;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: myFirstFont;
+    position: sticky;
+}
+
+.content{
+    display: inline-block;
+    /* background-image: url(/CSSinClass/Projects/FormAssets/stockvault-cyber-security-web-security-shield-over-world-map270508\ bj.jpg); */
+    width: 220vh;
+    height: 100vh;
+    margin: auto;
+}
+
+.elon{
+    border-radius: 50%;
+    height: 365px;
+    width: 385px;
+  }
+
+.image{
+    height: 100px;
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.intro{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 20vh;
+}
+
