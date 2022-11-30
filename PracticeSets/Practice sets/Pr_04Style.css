@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 16px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 19px;
+    /* list-style: disc; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box1{
+    height: 200px;
+    width: 350px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.box2{
+    height: 200px;
+    width: 350px;
+    background-color: blue;
+    border: 2px solid black;
+    
+}
+
+.box3{
+    height: 200px;
+    width: 350px;
+    background-color: green;
+    border: 2px solid black;
+    
+}
+

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    height: 5vh;
+    background-color: black;
+    color: white;
+
+}
+
+.div1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.div1 ul li{
+    display: inline-block;
+    margin: 9px 10px ;
+    font-size: 20px;
+}
+
+.div2{
+    height: 93vh;
+    background-color: red;
+    display: inline-block;
+    width: 50%;
+
+
+}
+
+.div3{
+    height: 93vh;
+    background-color: blue;
+    display: inline-block;
+    width: 50%;
+}
+footer{
+    font-family: 'Khand', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
