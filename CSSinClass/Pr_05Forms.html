@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <style>
+    /* .name{
+        margin-bottom: 10px;
+    }
+    .id{
+        margin-bottom: 10px;
+    } */
+    div{
+        margin-bottom: 10px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    /* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+  </style>
+  <body>
+    <form action="form.js" method="get">
+        <div class="name">
+
+            <label for="name">Name: </label>
+            <input type="text" name="name" placeholder="Enter your name" />
+        </div>
+        <div class="ids">
+            <label for="id">ID:
+                <input type="text" name="id" placeholder="Enter your id" />
+            </label>
+        </div>
+        <div class="psswd">
+            <label for="pswd">Password:</label>
+            <input type="password" name="pswd" placeholder="Enter your password"/>
+        </div>
+        <div class="date">
+            <label for="datetime">Date&Time:</label>
+            <input type="datetime-local" name="datetime" id="">
+        </div>
+        <div class="submit">
+            <button>
+                <input type="button" value="Submit">
+            </button>
+        </div>
+        <div class="reset">
+            <button>
+                <input type="reset" value="Reset">
+            </button>
+        </div>
+        <div class="radio">
+            <label for="married">Are you married?</label>
+            <input type="checkbox" name="married">
+        </div>
+        <div class="gender">
+            <label for="gender">Gender :</label>
+                <label for="male">Male</label>
+                <input type="radio" name="radio" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="radio" id="female">
+        </div>
+        <div class="number">
+            <input type="number" name="num" placeholder="Phone no">
+        </div>
+        <div class="txtarea">
+            <textarea name="name" placeholder="Write more about yourself" id="" cols="30" rows="10"></textarea>
+        </div>        
+        <div class="dropdown">
+            <label for="days">Days</label>
+            <select name="days">
+                <option value="Day-select">Select Day</option>
+                <option value="sunday">Sunday</option>
+                <option value="sunday">Monday</option>
+                <option value="sunday">Tuesday</option>
+            </select>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Days</button>
+            <div class="dropdown-content">
+                <a href="#">Link1</a>
+                <a href="#">Link1</a>
+                <a href="#">Link1</a>
+
+            </div>
+            
+        </div>
+    </form>
+  </body>
+</html>
