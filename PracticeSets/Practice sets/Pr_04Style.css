@@ -2,50 +2,41 @@
     margin: 0;
     padding: 0;
 }
-a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 22px;
-}
+
 header{
     background-color: black;
-    color: white;
-    height: 30px;
-    padding: 16px;
 }
 
-li{
+header nav ul{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+header nav ul li{
     display: inline-block;
-    margin-right: 19px;
-    /* list-style: disc; */
+    padding: 10px 20px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .container{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-}
+    justify-content: space-between;
+    background-color: aquamarine;
+    height: 500px;
 
+}
 .box1{
-    height: 200px;
-    width: 350px;
     background-color: red;
-    border: 2px solid black;
-
+    height: 250px;
+    width: 250px;
 }
-
 .box2{
-    height: 200px;
-    width: 350px;
     background-color: blue;
-    border: 2px solid black;
-    
+    height: 250px;
+    width: 250px;
 }
-
-.box3{
-    height: 200px;
-    width: 350px;
-    background-color: green;
-    border: 2px solid black;
-    
-}
-
