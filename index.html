@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My E-Commerce Website</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+    }
+
+    .nav a:hover {
+      color: #aaa;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      background-image: url('hero-image.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    .featured-products {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+    }
+
+    .product p {
+      margin: 0;
+      font-size: 0.8em;
+      color: #888;
+    }
+
+    .product .price {
+      color: #333;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>My E-Commerce Website</h1>
+  </div>
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Cart</a>
+  </div>
+  <div class="hero">
+    <h1>Welcome to My E-Commerce Website</h1>
+  </div>
+  <h2>Featured Products:</h2>
+  <div class="featured-products">
+    <div class="product">
+      <img src="product-1.jpg" alt="Product 1">
+      <h3>Product
